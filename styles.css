@@ -1,0 +1,22 @@
+/* Public informational pages only. No scripts, trackers, or external fonts. */
+:root { color-scheme: light; --ink:#183045; --muted:#526675; --border:#d9e3e9; --bg:#f4f8fa; --surface:#fff; --accent:#14627a; }
+* {box-sizing:border-box}
+html {font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;background:var(--bg);color:var(--ink)}
+body {margin:0}
+header {background:#18384a;color:white;padding:2rem max(1.25rem, calc((100vw - 840px) / 2))}
+header p {margin:.2rem 0 0;color:#cfdee6}
+main {max-width:840px;margin:2rem auto;padding:0 1.2rem 2rem}
+article {background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:clamp(1.3rem, 4vw, 2.3rem);box-shadow:0 4px 14px rgba(24,48,69,.04)}
+h1 {font-size:clamp(1.45rem,4vw,2rem);line-height:1.35;margin:.2rem 0}
+h2 {font-size:1.17rem;margin:1.8rem 0 .55rem}
+p, li {overflow-wrap:anywhere}
+a {color:var(--accent)}
+a:hover {text-decoration-thickness:2px}
+nav a {margin-right:1.3rem}
+nav {margin:1.6rem 0 0}
+nav a {color:#d7eff6}
+footer {max-width:840px;margin:0 auto 2rem;padding:0 1.2rem;color:var(--muted);font-size:.92rem}
+ul {padding-left:1.4rem}
+.small {color:var(--muted);font-size:.95rem}
+.notice {padding:1rem;border-left:4px solid var(--accent);background:#eff7fa;border-radius:4px}
+:focus-visible {outline:3px solid var(--accent);outline-offset:3px}
