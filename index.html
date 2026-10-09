@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TradingSystem POC Drive Reader の機能とGoogle Driveデータの取り扱いについて。">
+  <title>TradingSystem POC Drive Reader | アプリ情報</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>TradingSystem POC Drive Reader</h1>
+    <p>個人用Google Drive連携アプリのご案内</p>
+    <nav aria-label="ページ案内">
+      <a href="./index.html" aria-current="page">ホーム</a>
+      <a href="./privacy.html">プライバシーポリシー</a>
+      <a href="./terms.html">利用条件</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>アプリについて</h2>
+      <p>TradingSystem POC Drive Readerは、個人が管理するTradingSystemの研究・運用記録を、Google Drive上で参照・照合するためのデスクトップ向けOAuth連携アプリです。一般向けの登録・提供を目的としていません。</p>
+      <h2>Google Driveへのアクセス目的</h2>
+      <ul>
+        <li>権限を付与されたDriveファイルとメタデータの参照</li>
+        <li>チェックポイント、受付結果、参照資料の読戻し・整合性確認</li>
+        <li>認証接続やデータ取得の状態確認、問題の調査</li>
+      </ul>
+      <p>このOAuthクライアントの登録済みスコープは <code>https://www.googleapis.com/auth/drive.readonly</code> です。この権限自体にDriveファイルの作成・変更・削除は含まれません。別途認可された経路が存在する場合も、この読み取り専用OAuth権限とは区別して管理します。</p>
+      <p class="notice">Googleアカウントの承認はアプリ利用者本人が行います。この公開サイトではGoogleへのログイン、認証情報の入力、取引注文の実行を受け付けません。</p>
+      <h2>データの取り扱い</h2>
+      <p>取得するデータ、利用目的、保存・共有の範囲、アクセス権の取り消し方については、<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+      <h2>お問い合わせ</h2>
+      <p>非機密の問い合わせには<a href="https://github.com/moyashimisosoup/trading-system-oauth-info/issues">このサイトのGitHub Issues</a>を利用できます。個人情報・認証情報・非公開の取引情報は投稿しないでください。OAuth同意画面に表示されるサポートメールも利用できます。</p>
+      <p class="small">公開情報ページのみを提供しています。実際のTradingSystemの運用環境、データ、認証情報はこのサイトには配置しません。</p>
+    </article>
+  </main>
+  <footer>© 2026 TradingSystem POC Drive Reader · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a></footer>
+</body>
+</html>
